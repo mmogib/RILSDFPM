@@ -47,4 +47,4 @@ docs/site/
 # environment.
 Manifest.toml
 
-
+results/*

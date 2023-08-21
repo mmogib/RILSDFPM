@@ -1,12 +1,12 @@
 version: "3.8"
 services: 
-  t223math101:
-    container_name: t223math101
+  irc2:
+    container_name: irc2
     build:
       context: .
       args:
         - JULIA_VERSION=1.9.0
     ports: 
-      - "2231:1234"
+      - "2232:1234"
     volumes: 
-      - .:/home/julia/math101
+      - .:/home/julia/paper2
